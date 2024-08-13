@@ -1,0 +1,110 @@
+/* Navigation Bar Styles */
+.navbar {
+    background-color:#d1c8fe; /* Adjust as needed */
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-container {
+    flex-shrink: 0;
+  }
+  
+  .logo {
+    height: 60px; /* Adjust based on your needs */
+  }
+  
+  .design-panel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: #333; /* Adjust icon color if needed */
+  }
+  
+  .search-button:hover {
+    color: #555; /* Darker color on hover */
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #d1c8fe;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-logo .logo {
+    height: 40px; /* Adjust based on your needs */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-family: 'Baloo Chettan 2';
+  }
+  
+  .footer-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 150px;
+    font-family: 'Baloo Chettan 2';
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Baloo Chettan 2';
+  }
+  
+  .social-links {
+    font-family: 'Baloo Chettan 2';
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin-bottom: 10px;
+    font-family: 'Baloo Chettan 2';
+  }
+  
+  .social-links a {
+    font-family: 'Baloo Chettan 2';
+    color: #333;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+    font-family: 'Baloo Chettan 2';
+  }
+  
